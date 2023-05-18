@@ -1,0 +1,37 @@
+.table-body {
+    position: relative;
+    top: 120px;
+    left: 106px;
+    width: 964px;
+    height: 58px;
+    margin-bottom: 26px;
+}
+
+.table-body tbody tr td {
+    margin-bottom: 26px;
+}
+
+.table-body tr {
+    display: grid;
+    grid-template-columns: repeat(6, 160px);
+    text-align: center;
+    border-bottom: 1px solid #E0E0E0;
+
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+    top: 15px;
+}
+
+.row-value {
+    font-weight: bold;
+}
+
+.valor-entrada {
+    color: #7B61FF;
+}
+
+.valor-saida {
+    color: #FA8C10;
+
+}

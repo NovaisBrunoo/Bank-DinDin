@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url('../../assets/background\ 1backgroud.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    position: absolute;
+    top: 41px;
+    left: 100px;
+}
+
+.Cadaster input {
+    width: 449px;
+    height: 63px;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    margin-bottom: 61px;
+    font-size: 18px;
+    padding: 22px;
+}
+
+.Cadaster h1 {
+    margin-top: 61px;
+    color: #7978D9;
+    margin-bottom: 76px;
+}
+
+.Cadaster span {
+    margin-bottom: 57px;
+}
+
+.Cadaster .email-span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    position: absolute;
+    left: 32px;
+    top: 34%;
+}
+
+.name-span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    position: absolute;
+    left: 32px;
+    top: 17%;
+}
+
+.password-span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    position: absolute;
+    left: 32px;
+    top: 49%;
+}
+
+.confirmPassword {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    position: absolute;
+    left: 32px;
+    top: 64%;
+}
+
+.Cadaster {
+    width: 513px;
+    height: 781px;
+
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.register button {
+    width: 236px;
+    height: 53px;
+}
+
+.linkRegister {
+    text-decoration: none;
+}
+
+.linkRegisterSpan {
+    text-decoration: none;
+    color: #7B61FF;
+
+}

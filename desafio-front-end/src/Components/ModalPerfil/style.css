@@ -1,0 +1,90 @@
+.container-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+
+    width: 1440px;
+    height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.modal-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    width: 611px;
+    height: 770px;
+
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.modal-perfil h1 {
+    margin-right: 333px;
+    margin-bottom: 48px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 5%;
+    right: 64px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.title-nome {
+    position: absolute;
+    top: 90px;
+    left: 64px;
+}
+
+.title-email {
+    position: absolute;
+    left: 64px;
+    top: 220px;
+}
+
+.title-senha {
+    position: absolute;
+    left: 64px;
+    top: 350px;
+}
+
+.title-confirmar {
+    position: absolute;
+    left: 64px;
+    top: 480px;
+}
+
+.title-confirmar,
+.title-email,
+.title-nome,
+.title-senha {
+    font-weight: bold;
+    font-size: 20px;
+    color: #484848;
+}
+
+.form-modal-Perfil input {
+    margin-bottom: 26px;
+    margin-top: 30px;
+}
+
+.form-modal-perfil {
+    margin-bottom: 41px;
+    margin-top: 48px;
+}
+
+.form-moda-btn-perfil {
+    width: 236px;
+    height: 46px;
+    margin-bottom: 41px;
+}

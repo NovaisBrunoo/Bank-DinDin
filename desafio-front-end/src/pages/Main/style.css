@@ -1,0 +1,140 @@
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90.23deg, #05EDE3 0.02%, #645FFB 99.63%);
+}
+
+.container-hero {
+    position: relative;
+    top: 5%;
+
+    width: 100vw;
+    height: 924px;
+    background-color: #ffffff;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 55px;
+    left: 105px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    background-color: #FAFAFA;
+
+    width: 80px;
+    height: 30px;
+    padding: 15px;
+
+}
+
+.filter button {
+    color: #000000;
+    background-color: #FAFAFA;
+    width: 80px;
+    height: 30px;
+    margin-left: 4px;
+}
+
+
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 111px;
+    right: 100px;
+
+    width: 236px;
+    height: 196px;
+
+    background-color: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.resume strong {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.icon-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-table img {
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.resume-entry {
+    margin-top: 23px;
+    margin-bottom: 12px;
+}
+
+.resume-exit {
+    margin-bottom: 19px;
+}
+
+.resume-entry,
+.resume-exit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.resume-entry .entry {
+    margin-right: 45px;
+}
+
+.resume-exit .exit {
+    margin-right: 55px;
+}
+
+.saldo-strong {
+    margin-right: 45px;
+}
+
+.resume .resume-title {
+    margin-right: 90px;
+}
+
+.line {
+    border-top: 1px solid #EAEAEA;
+    width: 189px;
+    margin-bottom: 16px;
+}
+
+.value-entry {
+    color: #645FFB;
+}
+
+.value-exite {
+    color: #FA8C10;
+}
+
+.value-saldo {
+    color: #3A9FF1;
+}
+
+.add-registro {
+    width: 236px;
+    height: 46px;
+    margin-top: 16px;
+    position: absolute;
+    top: 323px;
+    right: 100px;
+}

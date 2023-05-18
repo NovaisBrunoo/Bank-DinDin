@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+
+    width: 100vw;
+    height: 100px;
+    color: #ffffff;
+}
+
+.logo-header {
+    position: absolute;
+    left: 100px;
+}
+
+.header-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 100px;
+}
+
+.logo-vector {
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.singout {
+    margin-left: 16px;
+    cursor: pointer;
+}

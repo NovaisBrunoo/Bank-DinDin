@@ -1,0 +1,146 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url('../../assets/background\ 1backgroud.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    position: absolute;
+    top: 41px;
+    left: 100px;
+}
+
+.container-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 55%;
+    height: 100vh;
+}
+
+.container-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 45%;
+    height: 100vh;
+}
+
+.formHome {
+    width: 513px;
+    height: 535px;
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    margin-right: 122px;
+}
+
+.formHome h1 {
+    margin-bottom: 82px;
+    color: #7978D9;
+
+}
+
+.formHome input {
+    width: 449px;
+    height: 63px;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    margin-bottom: 61px;
+    font-size: 18px;
+    padding: 22px;
+}
+
+.formHome .email-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    position: absolute;
+    left: 32px;
+    top: 28%;
+}
+
+.formHome .password-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    position: absolute;
+    left: 32px;
+    top: 50%;
+}
+
+button {
+    all: unset;
+    width: 449px;
+    height: 52px;
+    background: #7978D9;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.info-title {
+    font-weight: 700;
+    font-size: 52px;
+    color: #ffffff;
+
+    height: 124px;
+    width: 614px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.info-title strong {
+    color: #7978D9;
+}
+
+.left-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.left-info p {
+    color: #ffffff;
+    margin-top: 100px;
+    margin-bottom: 43px;
+    width: 600px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.left-info button {
+    width: 284px;
+    height: 52px;
+    position: absolute;
+    left: 90px;
+    top: 70%;
+    color: #ffffff;
+}

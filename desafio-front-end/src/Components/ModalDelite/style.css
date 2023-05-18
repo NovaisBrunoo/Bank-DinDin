@@ -1,0 +1,65 @@
+.modal-delite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 35px;
+    left: 800px;
+
+    width: 111px;
+    height: 53px;
+    z-index: 1;
+}
+
+.modal-del {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 111px;
+    height: 46px;
+
+    background-color: #E4F2FD;
+    border-radius: 4px;
+    margin-top: 7px;
+}
+
+.modal-delite img {
+    position: absolute;
+    top: 0;
+    left: 92px;
+}
+
+.modal span {
+    font-weight: 300;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.btn-delite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-delite button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 37px;
+    height: 17px;
+    margin-right: 7px;
+    font: 9px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.btn-yes {
+    background-color: #3A9FF1;
+}
+
+.btn-not {
+    background-color: #FF576B;
+}

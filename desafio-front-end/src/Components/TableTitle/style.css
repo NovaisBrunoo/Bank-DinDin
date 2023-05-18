@@ -1,0 +1,23 @@
+.table-title {
+    position: relative;
+    top: 111px;
+    left: 106px;
+    width: 964px;
+    height: 58px;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+}
+
+.table-title thead tr {
+
+    display: grid;
+    grid-template-columns: repeat(6, 160px);
+    list-style-type: none;
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+    top: 15px;
+
+
+}
